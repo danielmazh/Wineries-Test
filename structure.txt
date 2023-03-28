@@ -1,0 +1,73 @@
+Folder PATH listing
+Volume serial number is 0000000F EA89:FCDB
+C:\UI-TEST\WINERIES
+|   .env
+|   package-lock.json
+|   package.json
+|   README.md
+|   
++---client
+|   |   package-lock.json
+|   |   package.json
+|   |   README.md
+|   |   
+|   +---node_modules
+|   |   |   ...
+|   +---public
+|   |       favicon.ico
+|   |       index.html
+|   |       logo192.png
+|   |       logo512.png
+|   |       manifest.json
+|   |       robots.txt
+|   |       
+|   \---src
+|       |   App.css
+|       |   App.js
+|       |   App.test.js
+|       |   index.css
+|       |   index.js
+|       |   logo.svg
+|       |   reportWebVitals.js
+|       |   setupTests.js
+|       |   
+|       +---common
+|       |   \---components
+|       |           LogIn.js
+|       |           NavBar.js
+|       |           SingUp.js
+|       |           
+|       +---pages
+|       |   |   HomePage.js
+|       |   |   
+|       |   \---login
+|       |           LogInPage.js
+|       |           SignUpPage.js
+|       |           
+|       +---routes
+|       |       AppRoutes.js
+|       |       
+|       \---styles
+|               NavBar.css
+|               UserForm.css
+|               
++---node_modules
+|   |   ...
+\---server
+    |   index.js
+    |   structure.txt
+    |   
+    +---routers
+    |       AppRoutes.js
+    |       
+    +---services
+    |       LogIn.js
+    |       SignUp.js
+    |       
+    +---SQL
+    |       users.db
+    |       
+    \---views
+            LogIn.js
+            SignUp.js
+            

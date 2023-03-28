@@ -1,0 +1,41 @@
+
+.navbar {
+  background-color: rgb(255, 255, 255);
+  color: rgb(52, 6, 218);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  width: 100%; /* sets the width of the navbar to 100% */
+  position: fixed; /* fixes the position of the navbar */
+  top: 0; /* aligns the navbar to the top of the viewport */
+  left: 0; /* aligns the navbar to the left of the viewport */
+  z-index: 1; /* ensures the navbar is displayed on top of other elements */
+}
+
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  justify-content: center; /* centers the list items horizontally */
+  width: 100%; /* sets the width of the list to 100% */
+}
+
+.navbar li {
+  margin-right: 20px;
+}
+
+.nav-link {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.nav-link:hover {
+  background-color: #fff;
+  color: #333;
+}
+
